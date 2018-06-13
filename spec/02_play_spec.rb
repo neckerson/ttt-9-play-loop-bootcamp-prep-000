@@ -4,7 +4,7 @@ describe '#play' do
   it 'calls turn nine times' do
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-    allow(self).to receive(:gets).and_return('1','2','3','4','5','6','7','8','9')
+    allow(self).to receive(:gets).and_return('1','2','3','4','5','6','7','8')
     
     play(board)
 
